@@ -11,15 +11,16 @@ h1 {
   text-align: center;
 }
 
-#explainationtext {
+#explaination-text {
   font-size: 40px;
   font-weight: bold;
 }
 
-.explainationwell {
+.explaination-well {
   background-image: url("../img/clouds.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 /***********************/
@@ -28,8 +29,29 @@ h1 {
 
 .bordered {
   border: 1px solid purple;
+  padding: 5px;
 }
 
-#blockelementsinfo {
+#html-flashcard-info {
+  display: none;
+}
+
+#block-elements-info {
+  display: none;
+}
+
+#inline-elements-info {
+  display: none;
+}
+
+#tags-info {
+  display: none;
+}
+
+#attributes-info {
+  display: none;
+}
+
+#relative-path-info {
   display: none;
 }
