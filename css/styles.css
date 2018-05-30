@@ -1,4 +1,35 @@
+/***********************/
+/* basic page styling */
+/*********************/
+
 body {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+}
+
+#explainationtext {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.explainationwell {
+  background-image: url("../img/clouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/***********************/
+/* flash card styling */
+/*********************/
+
+.bordered {
+  border: 1px solid purple;
+}
+
+#blockelementsinfo {
+  display: none;
 }
